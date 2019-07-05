@@ -1,0 +1,31 @@
+# Sublime
+*.sublime-*
+
+# OS X
+.DS_Store
+
+# IntelliJ
+*.iml
+.idea
+.project
+
+# VSCode
+.vscode
+
+*node_modules*
+*.tern-port
+*.log
+.tern-project
+.tags
+
+# Speculate
+SPECS
+SOURCES
+*.service
+
+# Build files
+build
+
+# Other
+*.heapsnapshot
+*.0x
