@@ -1,1 +1,3 @@
-console.log('Hello');
+const clubs = require('./suits/clubs');
+
+console.log(clubs);
