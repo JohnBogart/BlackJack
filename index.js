@@ -1,3 +1,3 @@
-const clubs = require('./suits/clubs');
+const generateDeck = require('./generateDeck');
 
-console.log(clubs);
+console.log(generateDeck());
