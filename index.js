@@ -1,5 +1,5 @@
-const generateDeck = require('./generateDeck');
-const shuffle = require('./shuffle');
+const generateDeck = require('./game/generatedeck');
+const shuffle = require('./game/shuffle');
 
 const deal = cards => {
   return cards.splice(0, 2);
