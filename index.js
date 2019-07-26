@@ -1,9 +1,6 @@
 const generateDeck = require('./game/generatedeck');
 const shuffle = require('./game/shuffle');
-
-const deal = cards => {
-  return cards.splice(0, 2);
-};
+const deal = require('./game/deal');
 
 const play = () => {
   console.log('Welcome to BlackJack!');
