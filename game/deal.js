@@ -1,5 +1,11 @@
+let playerCards = [];
+
 const deal = cards => {
-  return cards.splice(0, 2);
+  playerCards.push(cards[0]);
+  playerCards.push(cards[1]);
+  return playerCards;
 };
 
-module.exports = deal;
+const dealersCards = cards => {};
+
+module.exports = { deal, dealersCards };
