@@ -9,6 +9,7 @@
   "author": "John Bogart",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "inquirer": "^7.0.0"
   }
 }
